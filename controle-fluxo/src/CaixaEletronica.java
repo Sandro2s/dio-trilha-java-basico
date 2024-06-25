@@ -8,6 +8,7 @@ public class CaixaEletronica {
        else
        System.out.println("Saldo Insuficiente");
 
+       
        System.out.println(saldo);
 
     }
