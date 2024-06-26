@@ -4,20 +4,16 @@ public class SistemaMedida {
         String sigla="M";
 
     switch(sigla){
-        case "P":{
+        case "P" -> {
             System.out.println("Pequeno");
-            break;
         }
-        case "M":{
+        case "M" -> {
             System.out.println("Medio");
-            break;
         }
-        case "G":{
+        case "G" -> {
             System.out.println("Grande");
-            break;
         }
-        default:
-        System.out.println("Indifinido");
+        default -> System.out.println("Indifinido");
 
 
     }
