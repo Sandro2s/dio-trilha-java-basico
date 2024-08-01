@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploTryCatch",
+            "request": "launch",
+            "mainClass": "ExemploTryCatch",
+            "projectName": "dio-trilha-java-basico_83c7224f"
+        },
+        {
+            "type": "java",
             "name": "AboutMeScnner",
             "request": "launch",
             "mainClass": "AboutMeScnner",

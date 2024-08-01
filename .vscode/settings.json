@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
         "sistema-smart-tv/src",
-        "sistema-smart-tv/bin"
+        "controle-fluxo/src"
     ]
 }
