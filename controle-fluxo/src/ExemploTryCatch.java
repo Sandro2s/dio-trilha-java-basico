@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ExemploTryCatch{
     public static void main(String[] args){
             try {
-                
+                 
             //Criando objeto Scanner
             Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
             System.out.println("Digite seu nome");
