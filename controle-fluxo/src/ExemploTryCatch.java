@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class ExemploTryCatch{
     public static void main(String[] args){
-            try {
+            
                  
             //Criando objeto Scanner
             Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+            try {
             System.out.println("Digite seu nome");
             String nome = scanner.next();
             
@@ -28,6 +29,7 @@ public class ExemploTryCatch{
                 
         }catch(InputMismatchException e){
             System.out.println("Os campos idade e altura precisa ser numericos");
+            
         }
          
 
