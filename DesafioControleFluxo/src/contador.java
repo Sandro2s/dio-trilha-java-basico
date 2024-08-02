@@ -13,14 +13,16 @@ public class contador {
 				terminal.close();
 
 				if(parametroUm >= parametroDois){
-					throw new IllegalArgumentException("O primeiro número deve ser menor que o segundo número.");
+					throw new ParametrosInvalidosException();
+
 				}
-				System.out.println("########Incio de impressãao############################");
+				System.out.println("######## Incio de impressãao ############################");
 				for (int i = parametroUm; i < parametroDois; i++){
 					System.out.println(i);
 				}
-			} catch (IllegalArgumentException e){
-				System.err.println("Erro:" + e.getMessage());
+			} catch (ParametrosInvalidosException e){
+				System.out.println("O segundo parâmetro deve ser maior que o primeiro.");
+				
 			} 
 		}			
 	}
