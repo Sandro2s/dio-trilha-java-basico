@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "contador",
+            "request": "launch",
+            "mainClass": "contador",
+            "projectName": "dio-trilha-java-basico_83c7224f"
+        },
+        {
+            "type": "java",
             "name": "ExemploWhile",
             "request": "launch",
             "mainClass": "ExemploWhile",
